@@ -38,7 +38,7 @@ function hideBlock() {
     console.log('Спрятать');
 }
 let btn = document.querySelector('#btn')
-btn.addEventListener('moseEnter', showMessage)
+btn.addEventListener('click', showMessage)
 btn.addEventListener('click', hideBlock)
 
 7
